@@ -1,0 +1,42 @@
+.login {
+    background: linear-gradient(to right, #333399dc, #ff00ccdc),
+    url(../../../public/img/city.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login__container {
+    background-color: #e8e8e8bd;
+    padding: 2rem;
+    text-align: center;
+}
+
+.login__header {
+    font-size: 3rem;
+    margin-bottom: 4rem;
+}
+
+.login__form {
+    margin-bottom: 2rem;
+}
+
+.login__field {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin-bottom: 2rem;
+}
+
+.login__label {
+    font-weight: 500;
+}
+
+.login__input {
+    background: none;
+    border: none;
+    border-bottom: .2rem solid #5c5c5c;
+}
