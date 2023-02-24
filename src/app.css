@@ -20,6 +20,10 @@ h1, h2, h3, p, body {
     padding: 0;
 }
 
+button {
+    cursor: pointer;
+}
+
 .btnGlobal {
     font-weight: 700;
     font-size: 1.7rem;
@@ -28,8 +32,8 @@ h1, h2, h3, p, body {
     border: .2rem solid #212121;
     background: #e8e8e8;
     box-shadow: .2rem .2rem #212121;
-    cursor: pointer;
 }
+
 .btnGlobal:active {
     box-shadow: none;
     transform: translate(.2rem, .2rem);
